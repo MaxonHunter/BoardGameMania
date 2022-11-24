@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Mirror;
 
-public class Player : NetworkBehaviour
+public class PlayerController : NetworkBehaviour
 {
     //Initialization Variables for Camera Control
     [SerializeField] Transform playerTransform;
